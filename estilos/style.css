@@ -1,5 +1,46 @@
 @charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
 *{
+    font-family: "Rubik", Arial, Helvetica, sans-serif;
     margin: 0px;
     padding: 0px;
+}
+body, html{
+    background: url(../imagens/pexels-felixmittermeier-957040.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+}
+main{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+section#login{
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.452);
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.692);
+    overflow: hidden;
+}
+section#login> div#imagem{
+    display: block;
+    background: rgb(149, 99, 230) url(../imagens/pexels-fotios-photos-2575758.jpg);
+    height: 200px;
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+section#login>div#formulario{
+    padding: 10px;
+    display: block;
 }
