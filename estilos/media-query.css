@@ -33,6 +33,18 @@
         width: 200px;
         padding: 5px;
     }
+    form>input[type=submit]{
+        margin-top: 15px;
+        width: 214px;
+        
+        }
+    }
+    form > a.botao{
+        
+        
+        
+        width: 214px;
+        height: 40px;
 }
     @media screen and (min-width: 992px) { /* PC */
         section#login {
@@ -45,13 +57,13 @@
         }
         
         section#login > div#imagem {
-            width: 70%;
+            width: 50%;
             height: 100%;
         }
         
         section#login > div#formulario {
             margin: auto;
-            width: 70%;
+            width: 50%;
             text-shadow: 1px 0px 2px rgba(0, 0, 0, 0.411);
           
         }
@@ -72,6 +84,19 @@
             padding: 5px;
         }
 
-
-
+        form>input[type=submit]{
+            margin-top: 15px;
+            width: 214px;
+            
+            }
+        }
+        form > a.botao{
+            
+            
+            
+            width: 214px;
+            height: 40px;
+           
+            
+        
     }
