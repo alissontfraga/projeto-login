@@ -43,5 +43,19 @@ section#login> div#imagem{
 section#login>div#formulario{
     display: block;
     padding: 10px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.411);
     
+    
+}
+form{
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.411);
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column; /* Organiza os elementos em coluna */
+    gap: ; /* Espaço entre os elementos */
+    align-items: flex-start; /* Alinha os itens à esquerda */
+}
+input {
+    width: 200px;
+    padding: 5px;
 }
