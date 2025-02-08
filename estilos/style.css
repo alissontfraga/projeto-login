@@ -14,7 +14,7 @@ body, html{
     height: 100vh;
     width: 100vw;
     box-sizing: border-box;
-    overflow-y: hidden;
+    
 }
 main{
     position: relative;
@@ -42,6 +42,7 @@ section#login> div#imagem{
     background-repeat: no-repeat;
 }
 section#login>div#formulario{
+    
     display: block;
     padding: 10px;
     text-shadow: 1px 0px 2px rgba(0, 0, 0, 0.411);
@@ -49,11 +50,12 @@ section#login>div#formulario{
     
 }
 form{
+    width: 70%;
     text-shadow: 1px 0px 2px rgba(0, 0, 0, 0.411);
     margin-top: 15px;
     display: flex;
     flex-direction: column; /* Organiza os elementos em coluna */
-    gap: ; /* Espaço entre os elementos */
+    gap: 10px; /* Espaço entre os elementos */
     align-items: flex-start; /* Alinha os itens à esquerda */
 }
 input {
