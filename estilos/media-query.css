@@ -30,9 +30,19 @@
         align-items: flex-start; /* Alinha os itens à esquerda */
     }
     input {
+        border-radius: 8px;
         width: 200px;
         padding: 5px;
     }
+    form>div#campo{
+        display: block;
+        height: 42px;
+        width: 224px;
+        border-radius: 8px;
+    
+        background-color: rgb(157, 75, 252);
+    }
+    
     form>input[type=submit]{
         margin-top: 15px;
         width: 214px;
@@ -83,6 +93,14 @@
             width: 200px;
             padding: 5px;
         }
+        form>div#campo{
+    display: block;
+    height: 41px;
+    width: 225px;
+    border-radius: 5px;
+
+    background-color: rgb(157, 75, 252);
+}
 
         form>input[type=submit]{
             margin-top: 15px;
