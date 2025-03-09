@@ -48,14 +48,12 @@ section#login>div#formulario{
     text-align: center;
     display: block;
     padding: 10px;
-    text-shadow: 1px 0px 2px rgba(0, 0, 0, 0.411);
-    
+    text-shadow:  2px 1px 2px rgba(0, 0, 0, 0.61);
     
 }
 form{
     margin: auto;
     width:90%;
-    text-shadow: 1px 0px 2px rgba(0, 0, 0, 0.411);
     margin-top: 15px;
     display: flex;
     flex-direction: column; /* Organiza os elementos em coluna */
@@ -113,7 +111,7 @@ form>input[type=submit]{
     width: 90%;
     margin: auto;
     height: 40px;
-    
+    text-shadow:  1px 1px 1px rgba(0, 0, 0, 0.493);
     background-color: rgb(30, 226, 105);
     border: none;
     border-radius: 5px;
@@ -131,9 +129,10 @@ form > a.botao{
     width: 90%;
     height: 40px;
     background-color: rgb(255, 255, 255);
+    text-shadow:  1px 1px 1px rgba(0, 0, 0, 0.445);
     margin: auto;
     border-radius: 5px;
-    color: rgb(45, 94, 64);
+    color: rgb(14, 92, 44);
     text-decoration: none;
     &:hover{
         background-color: rgb(127, 187, 152);
